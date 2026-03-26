@@ -1,0 +1,30 @@
+name: 🚀 Feature Request
+description: Suggest a new idea or improvement
+title: "[Feature]: "
+labels: ["enhancement"]
+
+body:
+
+* type: textarea
+  id: what
+  attributes:
+  label: What do you want?
+  placeholder: Describe the feature in a sentence or two
+  validations:
+  required: true
+
+* type: textarea
+  id: why
+  attributes:
+  label: Why do you want it?
+  placeholder: What would this help you do?
+  validations:
+  required: true
+
+* type: textarea
+  id: extra
+  attributes:
+  label: Anything else? (optional)
+  placeholder: Add any extra details if you want
+  validations:
+  required: false
